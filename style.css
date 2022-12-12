@@ -1,0 +1,9 @@
+body{
+    margin: 0;
+    background: darkgray;
+    overflow: hidden; /* hides the scollbar if canvas is big*/
+    text-align: center;
+}
+#myCanvas{
+    background: lightgrey;
+}
