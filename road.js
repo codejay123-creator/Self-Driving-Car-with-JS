@@ -19,7 +19,7 @@ class Road{
         ctx.strokeStyle="white";
 
 
-        for (let 1=0)
+        fo3r (let 1=0)
         ctx.beginPath();
         ctx.moveTo(this.left,this.top);
         ctx.lineTo(this.left,this.bottom);

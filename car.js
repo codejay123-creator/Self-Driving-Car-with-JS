@@ -1,5 +1,5 @@
 class Car {
-    constructor (x,y,width,height){
+    constructor (x,y,width,height){ //<-- what you are building//
         this.x=x; /* (.this) keyword refer to an object being used or called*/
         this.y=y;
         this.width=width;
@@ -56,7 +56,7 @@ class Car {
 
     }
 
-draw(ctx){
+draw(ctx){ // funtion //
     ctx.save();
     ctx.translate(this.x,this.y);
     ctx.rotate(-this.angle);
